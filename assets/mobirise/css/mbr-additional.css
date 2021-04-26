@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn+SC:400,600,700,900&display=swap);
 
 
 
@@ -17,7 +17,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Vollkorn SC', serif;
   font-size: 2.8rem;
   font-display: swap;
 }
@@ -25,7 +25,7 @@ body {
   font-size: 4.48rem;
 }
 .display-4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Vollkorn SC', serif;
   font-size: 1.2rem;
   font-display: swap;
 }
@@ -33,15 +33,15 @@ body {
   font-size: 1.92rem;
 }
 .display-5 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 1.6rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.56rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Vollkorn SC', serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -70,9 +70,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -543,11 +543,11 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Vollkorn SC', serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -1153,7 +1153,8 @@ section.lazy-placeholder:after {
   background-color: #3a3b3b;
 }
 .cid-svIsLwJu7L .mbr-section-subtitle {
-  color: #767676;
+  color: #efefef;
+  text-align: center;
 }
 .cid-svIsLwJu7L H2 {
   color: #efefef;
@@ -1250,6 +1251,9 @@ section.lazy-placeholder:after {
 .cid-sg4CJm8wNi .mbr-section-title {
   color: #efefef;
 }
+.cid-sg4CJm8wNi P {
+  text-align: center;
+}
 .cid-sg4Fo07jmC {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -1273,6 +1277,9 @@ section.lazy-placeholder:after {
 }
 .cid-sg4Fo07jmC H2 {
   color: #ffffff;
+}
+.cid-sg4Fo07jmC LABEL {
+  color: #efefef;
 }
 .cid-svFq0BHYAK {
   padding-top: 30px;
