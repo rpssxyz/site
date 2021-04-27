@@ -42,11 +42,11 @@ body {
 }
 .display-7 {
   font-family: 'Vollkorn SC', serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -548,11 +548,11 @@ a:hover {
 }
 .form-control {
   font-family: 'Vollkorn SC', serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 blockquote {
   border-color: #149dcc;
@@ -1147,17 +1147,10 @@ section.lazy-placeholder:after {
 .cid-sg4F0Vdcfb .mbr-section-btn {
   text-align: center;
 }
-.cid-svIsLwJu7L {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #3a3b3b;
-}
-.cid-svIsLwJu7L .mbr-section-subtitle {
-  color: #efefef;
-  text-align: center;
-}
-.cid-svIsLwJu7L H2 {
-  color: #efefef;
+.cid-svMOQUJcvm {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #292929;
 }
 .cid-sg4CJm8wNi {
   padding-top: 30px;
